@@ -228,8 +228,8 @@
     document.getElementById('next-btn').onclick = () => { if (currentIndex < totalImages - 1) currentIndex++, showImage() };
     function shareToKakao() {
       const num = imageOrder[currentIndex];
-      const shareUrl = `https://bluenew.life/card/share/${num}.html`;
-      const imageUrl = `https://bluenew.life/card/images/${num}.jpg`;
+      const shareUrl = `https://bluenew.life/lielee/share/${num}.html`;
+      const imageUrl = `https://bluenew.life/lielee/images/${num}.jpg`;
       Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
